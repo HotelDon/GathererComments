@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    
+    "name": "Gatherer Comments",
+    "description": "Adds new comment box to the MTG Gatherer website",
+    "icons": {},
+    "version": "1.0",
+    "content_scripts": 
+    [
+        {
+            "matches": ["http://gatherer.wizards.com/Pages/Card/Details.aspx?*"],
+            "js": ["commentLoader.js"],
+            "css": ["commentBox.css","commentLoader.css"]
+        }
+    ],
+    "permissions": [
+        "https://www.htmlcommentbox.com/"
+    ]
+}
+

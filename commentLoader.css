@@ -1,0 +1,38 @@
+.commentLoader 
+{
+    position: absolute;
+    top: 260px;
+    left: 750px;
+    z-index: 1000;
+    width: 400px;
+    margin: 0 auto;
+    text-align: left;
+    max-height: 700px; 
+    overflow: auto;
+}
+
+/* Overrides a few HCB_comment_box values, to better match the Gatherer website css.    */
+/* This file must always be loaded second (see manifest.json) or most of it won't work  */
+
+#HCB_comment_box h3 
+{
+    color: #ffffff;
+}
+
+#HCB_comment_box input,#HCB_comment_box textarea,#HCB_comment_box select,#HCB_comment_box .uneditable-input 
+{
+    background-color: #3a3939;
+    color: #c5c5c5;
+}
+
+#HCB_comment_box .comment:nth-child(even)
+{
+    background-color: #3e3e3e;
+    border-color: grey;
+}
+
+#HCB_comment_box .comment:nth-child(odd)
+{
+    background-color: #3a3939;
+    border-color: grey;
+}
