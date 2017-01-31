@@ -4,8 +4,11 @@ Adds a new comment section to the MTG Gatherer website to each card page (the cu
 Installation Instructions: 
 
 1) Download GathererComments.zip
+
 2) Unzip GathererComments.zip into it's own folder. 
+
 3) Go to settings -> extensions, and in the top right check "developer mode"
+
 4) Then select "Load Unpacked Extension", and select the folder you unzipped GathererComments.zip into. 
 
 Now, just visit a Gatherer card details page, and it should hopefully work!
