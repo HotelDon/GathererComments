@@ -10,11 +10,7 @@
         {
             "matches": ["http://gatherer.wizards.com/Pages/Card/Details.aspx?*"],
             "js": ["commentLoader.js"],
-            "css": ["commentBox.css","commentLoader.css"]
+            "css": ["isso.css"]
         }
-    ],
-    "permissions": [
-        "https://www.htmlcommentbox.com/"
     ]
 }
-
