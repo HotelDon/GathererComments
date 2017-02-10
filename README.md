@@ -5,8 +5,9 @@ Adds a new comment box to the bottom of card pages on the MTG Gatherer website (
 
 1. Download [GathererComments.crx](https://github.com/HotelDon/GathererComments/raw/master/GathererComments.crx)
 2. Go to Settings (the button with three vertical dots) -> Extensions.
-3. Drag GathererComments.crx into the extensions window
-4. Select "Add Extension" to add extension.
+3. Click the "Developer Mode" checkbox in the top right corner. 
+4. Drag GathererComments.crx into the extensions window
+5. Select "Add Extension" to add extension.
 
 ###Installation Instruction (Firefox):
 
